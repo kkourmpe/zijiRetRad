@@ -14,9 +14,10 @@ The model assumes that disk illumination occurs purely through:
 
 This setup is particularly relevant for systems in the soft spectral state.
 
+<div style="margin-top:20px; margin-bottom:10px;"></div>
 
 <p align="center">
-  <img src="model.png" width="600">
+  <img src="model.png" width="500">
 </p>
 
 <p align="center">
