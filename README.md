@@ -1,6 +1,6 @@
-# zijiRetRad XSPEC Model
+# `zijiRetRad` XSPEC Model
 
-**zijiRetRad** is an additive table model for XSPEC, based on the `ziji` code [1,2].  
+`**zijiRetRad**` is an additive table model for XSPEC, based on the `ziji` code [1,2].  
 It simulates the X-ray **reflection** and **blackbody emission** of a corona-less black hole accretion disk system.
 
 ---
@@ -88,7 +88,7 @@ Kourmpetis et al. (2026)
 
 ## Code
 
-This model is based on the 'ziji' code and framework:
+This model is based on the `ziji` code and framework:
 
 [1] Mirzaev et al. (2024), *Toward More Accurate Synthetic Reflection Spectra: Improving the Calculations of Returning Radiation*, [Astrophys. J. 965, 66](https://iopscience.iop.org/article/10.3847/1538-4357/ad303b).
 
