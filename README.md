@@ -9,13 +9,19 @@ It simulates the X-ray **reflection** and **blackbody emission** of a corona-les
 
 The model assumes that disk illumination occurs purely through:
 
-- Self-irradiation of the accretion disk  
-- Higher-order (iterative) reflections  
+- Returning thermal radiation (purple arrows in Fig. 1)
+- Higher-order returning reflection radiation up to 3 iterations (brown arrow in Fig. 1)
 
 This setup is particularly relevant for systems in the soft spectral state.
 
+
 <p align="center">
   <img src="model.png" width="600">
+</p>
+
+<p align="center">
+  <b>Figure 1:</b> Black hole-disk model with reflection component from self-
+irradiation of the disk and iterative reflection.
 </p>
 
 ---
