@@ -51,10 +51,10 @@ The model includes **five physical parameters**:
 
 ## Physical Distance
 
-The source distance is encoded in the XSPEC normalization:
+The source distance is encoded in the XSPEC normalization $\mathcal{N}$:
 
 $$
-\mathcal{N} = 0.229 \frac{M^2}{D^2}
+\mathcal{N} = 0.229 \, \frac{M^2}{D^2}
 $$
 
 - $M$ in solar masses ($M_\odot$)  
@@ -84,8 +84,6 @@ See full grid details in [Kourmpetis et al. (2026)](https://doi.org/10.48550/arX
 ---
 
 ## Reference
-
-If you use this model, please cite:
 
 Kourmpetis et al. (2026)  
 *Modeling X-Ray reflection spectra from returning radiation: application to 4U 1630–47*  
