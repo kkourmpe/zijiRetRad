@@ -54,7 +54,7 @@ The model includes **five physical parameters**:
 The source distance is encoded in the XSPEC normalization $\mathcal{N}$:
 
 $$
-\mathcal{N} = 0.229 \, \frac{M^2}{D^2}
+\mathcal{N} = 0.229 \ \frac{M^2}{D^2}
 $$
 
 - $M$ in solar masses ($M_\odot$)  
