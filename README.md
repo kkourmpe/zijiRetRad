@@ -107,6 +107,6 @@ https://doi.org/10.3847/1538-4357/ad8a63).
 ## Usage in XSPEC
 
 ```bash
-XSPEC> model atable{zijiRetRad_tot}
+XSPEC> model atable{/your_path/zijiRetRad_tot.fits}
 
 
