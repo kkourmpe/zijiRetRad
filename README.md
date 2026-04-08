@@ -1,6 +1,6 @@
 # `zijiRetRad` XSPEC Model
 
-`**zijiRetRad**` is an additive table model for XSPEC, based on the `ziji` code [1,2].  
+`zijiRetRad` is an additive table model for XSPEC, based on the `ziji` code [1,2].  
 It simulates the X-ray **reflection** and **blackbody emission** of a corona-less black hole accretion disk system.
 
 ---
