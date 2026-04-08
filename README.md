@@ -49,7 +49,7 @@ The model includes **five physical parameters**:
 
 ---
 
-## Normalization
+## Physical Distance
 
 The source distance is encoded in the XSPEC normalization:
 
