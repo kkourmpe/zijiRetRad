@@ -1,6 +1,3 @@
-# zijiRetRad
-XSPEC table model for blackbody and reflection spectra produced by disk self-irradiation and higher-order reflection in a corona-less scenario in X-ray binaries
-
 # zijiRetRad XSPEC Model
 
 **zijiRetRad** is an additive table model for XSPEC, based on the `ziji` code.  
@@ -15,9 +12,9 @@ The model assumes that disk illumination occurs purely through:
 - Self-irradiation of the accretion disk  
 - Higher-order (iterative) reflections  
 
-This setup is particularly relevant for systems without a corona.
+This setup is particularly relevant for systems in the soft spectral state.
 
-![Model geometry](figures/model.png)
+![Model geometry](model.png)
 
 ---
 
@@ -70,7 +67,36 @@ See full grid details in the paper.
 
 ---
 
+## Notes
+
+- The model is calibrated for **4U 1630–47**, but is applicable to systems with similar physical parameters (mass, spin, inclination).
+- Both blackbody and reflection components share the same parameter grid.
+
+---
+
+## Reference
+
+If you use this model, please cite:
+
+Kourmpetis et al. (2026)  
+*Modeling X-Ray reflection spectra from returning radiation: application to 4U 1630–47*  
+https://doi.org/10.48550/arXiv.2601.14860
+
+---
+
+## Code
+
+This model is based on the ZIJI code and framework:
+
+[1] Mirzaev et al. (2024), *Toward More Accurate Synthetic Reflection Spectra: Improving the Calculations of Returning Radiation*, Astrophys. J. 965, 66.
+
+[2] Mirzaev et al. (2024), *ZIJI: a model to calculate X-ray spectra of black hole X-ray binaries*, arXiv:2406.01226.
+
+---
+
 ## Usage in XSPEC
 
 ```bash
 XSPEC> model atable{zijiRetRad_tot}
+
+
