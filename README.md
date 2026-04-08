@@ -1,6 +1,6 @@
 # zijiRetRad XSPEC Model
 
-**zijiRetRad** is an additive table model for XSPEC, based on the `ziji` code.  
+**zijiRetRad** is an additive table model for XSPEC, based on the `ziji` code [1,2].  
 It simulates the X-ray **reflection** and **blackbody emission** of a corona-less black hole accretion disk system.
 
 ---
@@ -15,7 +15,7 @@ The model assumes that disk illumination occurs purely through:
 This setup is particularly relevant for systems in the soft spectral state.
 
 <p align="center">
-  <img src="model.png" width="400">
+  <img src="model.png" width="600">
 </p>
 
 ---
@@ -65,7 +65,7 @@ $$
 | Accretion rate ($10^{18}$ g/s) | 0.14 – 2.1 |
 | Inclination ($^\circ$) | 30 – 75 |
 
-See full grid details in the paper.
+See full grid details in [Kourmpetis et al. (2026)](https://doi.org/10.48550/arXiv.2601.14860) .
 
 ---
 
@@ -82,17 +82,18 @@ If you use this model, please cite:
 
 Kourmpetis et al. (2026)  
 *Modeling X-Ray reflection spectra from returning radiation: application to 4U 1630–47*  
-https://doi.org/10.48550/arXiv.2601.14860
+[arXiv:2601.14860](https://doi.org/10.48550/arXiv.2601.14860)
 
 ---
 
 ## Code
 
-This model is based on the ZIJI code and framework:
+This model is based on the 'ziji' code and framework:
 
-[1] Mirzaev et al. (2024), *Toward More Accurate Synthetic Reflection Spectra: Improving the Calculations of Returning Radiation*, Astrophys. J. 965, 66.
+[1] Mirzaev et al. (2024), *Toward More Accurate Synthetic Reflection Spectra: Improving the Calculations of Returning Radiation*, [Astrophys. J. 965, 66](https://iopscience.iop.org/article/10.3847/1538-4357/ad303b).
 
-[2] Mirzaev et al. (2024), *ZIJI: a model to calculate X-ray spectra of black hole X-ray binaries*, arXiv:2406.01226.
+[2] Mirzaev et al. (2024), *X-ray spectra of black hole X-ray binaries with returning radiation*, [Astrophys.J. 976: 229 (2024)](
+https://doi.org/10.3847/1538-4357/ad8a63).
 
 ---
 
