@@ -51,7 +51,7 @@ The model includes **five physical parameters**:
 
 ## Physical Distance
 
-The source distance is encoded in the XSPEC normalization $\mathcal{N}$:
+The source distance is encoded in the XSPEC normalization $(\mathcal{N})$:
 
 $$
 \mathcal{N} = 0.229 \ \frac{M^2}{D^2}
@@ -99,6 +99,8 @@ This model is based on the `ziji` code and framework:
 
 [2] Mirzaev et al. (2024), *X-ray spectra of black hole X-ray binaries with returning radiation*, [Astrophys.J. 976: 229 (2024)](
 https://doi.org/10.3847/1538-4357/ad8a63).
+
+The source code is available at: https://github.com/ABHModels/ziji/
 
 ---
 
